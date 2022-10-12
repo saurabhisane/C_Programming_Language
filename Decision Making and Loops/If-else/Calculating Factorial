@@ -1,0 +1,36 @@
+/*This is program about factorial of any number..
+for example.. input n = 5
+              output = 120
+    [  5! = 5*4*3*2*1  = 120 ] 
+    '!' this symbol means factorial. 
+*/
+#include <stdio.h>
+
+int main()
+{
+    unsigned long long  a=1;
+    int n;
+    printf("Enter the number.\n");
+    scanf("%d",&n);
+
+    if ((n == 0) || (n == 1))
+    {
+        printf("The factorial is 1\n");
+        goto end;
+    }
+    else if (n < 0)
+    {
+        printf("Error! Factorial of a negative number doesn't exist.");
+    }
+    else if (n > 1)
+    {
+        printf("The factorials is : ");
+        for (int i = 1; i <= n; i++)
+        {
+            a *= i;
+        }
+        printf("%llu. \n", a);
+    }
+    end:
+     printf("The program was Ended..\n");
+}
