@@ -1,15 +1,18 @@
 # C_Programming_Language
 This is my first programming lranguage which is I am learning !!!!
 
-**Inroduction and basics**
+**Inroduction and basics :**
+
     Basic programs on C Tokens like  variables , Datetypes , semicolon , etc.
     
-**Decision Making and Loops**
+**Decision Making and Loops :**
+
      1) IF ELSE
      2) LOOPS
      3) SWITCH CASE
-     
- **Array**
+ **Array :**
+
      1) 1D Array
      2) 2D Araay
      3) 3D Array
+
