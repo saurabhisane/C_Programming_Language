@@ -1,0 +1,47 @@
+#include<stdio.h>
+
+int main()
+    {
+        double a,b,c;
+        char operation;
+
+
+        printf("select operation which will you have to do.(+,-,*,/)\n");
+        //select any one of the operation (+,-,*,/)
+        scanf("%c",&operation);
+
+
+        printf("Enter the numbers.\n");
+        scanf("%lf %lf",&a, &b);
+
+
+        switch(operation)
+        {
+        case '+':
+            c=a+b;
+            printf("%.2lf %c %.2lf = %.2lf",a,operation,b,c);
+            break;
+
+        case '-':
+            c=a-b;
+            printf("%.2lf %c %.2lf = %.2lf",a,operation,b,c);
+            break;
+
+        case '*':
+            c=a*b;
+            printf("%.2lf %c %.2lf = %.2lf",a,operation,b,c);
+            break;
+
+        case '/':
+            c=a/b;
+            printf("%.2lf %c %.2lf = %.2lf",a,operation,b,c);
+            break;
+
+
+        default:
+            printf("selected operation is not correct!!!!");
+            break;
+        }
+
+        return 0;
+    }
