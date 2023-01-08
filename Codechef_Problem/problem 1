@@ -1,0 +1,22 @@
+/*
+Problem
+Chef's current rating is XX, and he wants to improve it. It is generally recommended that a person with rating XX should solve problems whose difficulty lies in the range [X, X+200][X,X+200], i.e, problems whose difficulty is at least XX and at most X+200X+200.
+
+You find out that Chef is currently solving problems with a difficulty of YY.
+
+ Is Chef following the recommended practice or not?
+ */
+#include <stdio.h>
+
+int main() {
+    int T,X=5,Y=10,z,x,y;
+    scanf("%d",&T);
+    
+    for(int i=0;i<T;i++){
+        scanf("%d %d %d",&x,&y,&z);
+        printf("%d\n",((X*x)+(Y*y))/z);
+    }
+	
+	return 0;
+}
+
