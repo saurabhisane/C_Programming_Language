@@ -1,5 +1,5 @@
 # C_Programming_Language
-This is my first programming language which is I am learning !!!!
+
 
 **Inroduction and basics :**
 
